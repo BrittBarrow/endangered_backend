@@ -5,8 +5,7 @@ class CreateEndangeredHabitats < ActiveRecord::Migration[5.2]
       t.string :image
       t.string :region
       t.string :description
-      t.string :animals
-      
+
       t.timestamps
     end
   end

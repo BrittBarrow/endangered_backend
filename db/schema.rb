@@ -38,7 +38,6 @@ ActiveRecord::Schema.define(version: 2018_09_04_144652) do
     t.string "image"
     t.string "region"
     t.string "description"
-    t.string "animals"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
