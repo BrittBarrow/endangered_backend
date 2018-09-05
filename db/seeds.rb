@@ -22,6 +22,7 @@ endangered_habitats= EndangeredHabitat.create([{name: 'Amazon',image: 'https://c
 
 user_endangered_habitat = UserHabitat.create(user_id: 1, endangered_habitat_id:3)
 
+comments = Comment.create(text: 'Hello', endangered_habitat_id: 2)
 
 animals = Animal.create([{species: 'Jaguar'},
                         {species: 'Macaw'},

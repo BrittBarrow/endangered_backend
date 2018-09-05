@@ -5,7 +5,7 @@ class Api::V1::UsersController < ApplicationController
   end
 
   def show
-    render json: User.find(params[:id]), include: ['endangered habitats', 'donations']
+    render json: current_user, include: ['endangered habitats', 'donations']
   end
 
 
